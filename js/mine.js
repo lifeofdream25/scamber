@@ -6,6 +6,12 @@ function slowScroll6 (id) {
 			},200);
 			return false;
 }
+function slowScrollToAbout(id){
+	var offset = 0;
+			$("html, body").animate({
+				scrollTop: $(id).offset().top - offset
+			},800);
+}
 function slowScroll1 (id) {
 			var offset = 0;
 			$("html, body").animate({
