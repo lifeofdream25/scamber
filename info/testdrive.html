@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<head>
+	<title>Test-Drive</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style_test.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/mine.js"></script>
+</head>
+<body>
+<header id="header" class="header">
+	<div class="conteiner">
+		<div class="logo">
+			<img class="logo_image" src="img/logo2.png">
+			<span class="logo_text">Scamber</span>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li class="li">
+					<a target="output" class="a_header" href="../index.html" >Головна</a>
+				</li>
+				<li class="li">
+					<a target="output" class="a_header" href="katalog.html">Каталог</a>
+				</li>
+				<li class="li">
+					<a target="output" class="a_header" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<section id="iods">
+	<div class="conteiner">
+		<form>
+			<label class="label" for="select">Виберіть автомобіль</label><br/>
+			<select onclick="auto()" id="select">
+				<option value=""></option>
+				<option value="Toyota">Toyota Higlander</option>
+				<option value="Lexus">Lexus ES</option>
+				<option value="BMW">BMW X7</option>
+				<option value="Pegeout">Pegeout 3008</option>
+				<option value="Mercedes">Mercedes E-class</option>
+				<option value="Volvo">Volvo XC-60</option>
+				<option value="Mazda">Mazda CX-5</option>
+				<option value="X4">BMW X4</option>
+			</select>
+			<br/>
+			<label for="name" class="label">Прізвище та ім'я</label><br/>
+			<input class="input" type="text" name="name" placeholder="Введіть сюди" id="name" required><br/>
+	  		<label for="number" class="label">Номер телефону</label><br/>
+	  		<input class="input" type="text" name="number" placeholder="+380 00-000-00-00" id="number" required>
+	 		<br/>
+	  		<input  type="button" class="submit_button" onclick="valid(document.getElementById('form'))" name="submit" value="Надіслати" />
+		</form>
+	</div>
+</section>
+<div id="popup" class="popup">
+  	<a onclick="hid2()" href="#" class="popup_area"></a>
+  	<div class="popup_body">
+  		<div class="popup_content">
+  			<a onclick="hid2()" href="#" class="popup_close"></a>
+  			<div class="popup_title">Дякуємо за заявку!</div>
+  			<div class="popup_text"> Найближчим часом з вазв'яжеться наш менеджер</div>
+  		</div>
+  	</div>
+ </div>
+ <img id="img_auto" src="">
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<head>
+	<title>BMW-X7</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/mine.js"></script>
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="conteiner">
+			<div class="logo">
+				<img class="logo_image" src="img/logo2.png">
+				<span class="logo_text">Scamber</span>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li class="li">
+						<a target="output" class="a_header" href="../index.html" >Головна</a>
+					</li>
+					<li class="li">
+						<a target="output" class="a_header" href="../info/katalog.html">Каталог</a>
+					</li>
+					<li class="li">
+						<a target="output" class="a_header" href="../info/testdrive.html">Тест драйв</a>
+					</li>
+					<li class="li">
+						<a target="output" class="a_header" href="../info/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="navigation">
+		<div class="conteiner">
+			<a class="a_nav gol" href="#" onclick="gol()">Огляд</a>
+			<div class="about">
+				<a class="a_nav info" href="#" onclick="info()" href="#">Детальний опис</a>
+				<a class="a_nav com" onclick="com()" href="#">Відгуки</a>
+			</div>
+		</div>
+	</section>
+	<hr align="center" size="1.5px" color="#4a4a4a">
+	<section class="foto_auto">
+		<div class="div_foto">
+			<div class="slider">
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+				<div class="slider_item"><img src="../img/auto_2.jpg" alt="" class="auto_img"></div>
+			</div>
+			<p class="small_info_price"> Ціна: 114 114$</p>
+		</div>
+		<div class="small_info">
+			<div class="small_info_content">
+				<p class="small_info_title">Новий BMW X7 30d Steptronic (265 к.с) xDrive base 2020</p>
+				<div class="small_info_text">
+					<div class="small_info_block">
+						<p class="small_info_name">Тип кузова</p>
+						<p class="small_info_text">Кросовер</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Кількість дверей</p>
+						<p class="small_info_text">6</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Двигун</p>
+						<p class="small_info_text">3.0 л (265 к.с • 194.9 кВт) • Дизель</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Коробка передач</p>
+						<p class="small_info_text">Автомат</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Привід</p>
+						<p class="small_info_text">Повний привід</p>
+					</div>
+
+					<div class="small_info_block">
+						<p class="small_info_name">Витрата пального, 100 км</p>
+						<p class="small_info_text">6.5-6.8л</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Покоління</p>
+						<p class="small_info_text">G07</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Колір кузова</p>
+						<p class="small_info_text">Carbon Black</p>
+					</div>
+					<div class="small_info_block">
+						<p class="small_info_name">Доступні кольори</p>
+						<p class="small_info_text">Black Sapphire • Сірий</p>
+					</div>
+				</div>
+			</div>
+			<div class="div_for_button">
+				<a href="#" onclick="info()" class="small_info_button">Детальніше</a>
+				<a class="small_info_button" onclick="buy()" href="#">Купити</a>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="conteiner info_detail">
+				<p class="info_detail_title">Новий BMW X7 30d Steptronic (265 к.с) xDrive base 2020</p>
+				<div class="info_detail_content">
+					<div class="fix_div">
+						<img class="info_foto" src="../img/auto_2.jpg">
+						<p class="info_price">Ціна: 114 114$</p>
+					</div>
+					<div class="info_detail_table">
+						<p class="info_table_title">Інтер'єр</p>
+						<div class="info_block">
+							<p class="info_name">Матеріали салону</p>
+							<p class="info_text">Оздоблення деревиною, Шкіра</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Обшивка сидінь</p>
+							<p class="info_text">Перфорована шкіра</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Обшивка керма</p>
+							<p class="info_text">Шкіряна</p>
+						</div>
+						<p class="info_table_title">Екстер'єр</p>
+						<div class="info_block">
+							<p class="info_name">Клімат-контроль</p>
+							<p class="info_text">Чотирьохзонний</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Електрообладнання</p>
+							<p class="info_text">Датчик дощу • Режими руху • Датчик світла • Кнопка запуску двигуна • Омивач фар • Голосове управління • Коректор фар • Пам'ять сидінь • Start/Stop • Електропривід рульової колонки • Бортовий комп'ютер • Підігрів керма • Круїз-контроль • Електропривід багажника • Eлектропривод сидінь • Підігрів заднього скла</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Електросклопідйомники</p>
+							<p class="info_text">Передні • Задні</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Підігрів сидінь</p>
+							<p class="info_text">Передні • Задні</p>
+						</div>
+						<p class="info_table_title">Безпека</p>
+						<div class="info_block">
+							<p class="info_name">Airbag (подушки безпеки)</p>
+							<p class="info_text">Пасажира • Бокові • Фронтальні</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Системи безпеки</p>
+							<p class="info_text">EBD, BrakeAssist, BAS, AHB, TRC, EBS, DAC, TPWS, HAC, TSR, HSA, LDA, BSM, EPB, ABS</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Система курсової стійкості</p>
+							<p class="info_text">ESP</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Системи сповіщень</p>
+							<p class="info_text">Парктронік • Датчик тиску в шинах • Камера заднього виду • Сигналізація</p>
+						</div>
+						<p class="info_table_title">Мультимедіа</p>
+						<div class="info_block">
+							<p class="info_name">Акустика</p>
+							<p class="info_text">Сабвуфер</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Дисплей, дюйм </p>
+							<p class="info_text">12.3</p>
+						</div>
+						<p class="info_table_title_techno">Технічні характеристики</p>
+						<p class="info_table_title">Кермо</p>
+						<div class="info_block">
+							<p class="info_name">Підсилювач керма</p>
+							<p class="info_text">Електропідсилювач</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Час розгону до 100 км/год, с</p>
+							<p class="info_text">7.0</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Максимальна шв., км/год</p>
+							<p class="info_text">227</p>
+						</div>
+						<p class="info_table_title">Габарити та маса</p>
+						<div class="info_block">
+							<p class="info_name">Коефіцієнт аеродинамічного опору</p>
+							<p class="info_text">0.34</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Обсяг масляного бака, л</p>
+							<p class="info_text">6.5</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Вантажопідйомність, кг</p>
+							<p class="info_text">850</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Колісна база, мм</p>
+							<p class="info_text">3105</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Об'єм паливного бака, л</p>
+							<p class="info_text">80</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Об'єм багажника, л</p>
+							<p class="info_text">326-2120</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Максимально допустима маса, кг</p>
+							<p class="info_text">3220</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Споряджена маса, кг</p>
+							<p class="info_text">2370</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Кліренс, мм</p>
+							<p class="info_text">221</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Висота, мм</p>
+							<p class="info_text">1805</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Ширина, мм</p>
+							<p class="info_text">2000-2218</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Довжина, мм</p>
+							<p class="info_text">5151</p>
+						</div>
+						<p class="info_table_title">Кузов</p>
+						<div class="info_block">
+							<p class="info_name">Кількість дверей</p>
+							<p class="info_text">6</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Тип кузова</p>
+							<p class="info_text">Кросовер</p>
+						</div>
+						<p class="info_table_title">Двигун</p>
+						<div class="info_block">
+							<p class="info_name">Ступінь стиснення</p>
+							<p class="info_text">16.5</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Норми токсичностi EURO</p>
+							<p class="info_text">VI</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Викид CO2, г/км</p>
+							<p class="info_text">171-178</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Наявність додаткового тиску</p>
+							<p class="info_text">Подвійний турбокомпресор</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Кількість клапанів</p>
+							<p class="info_text">24</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Витрата пального (змішаний цикл)</p>
+							<p class="info_text">6.5-6.8</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Розташування циліндрів</p>
+							<p class="info_text">Послідовне</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Кількість циліндрів</p>
+							<p class="info_text">6</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Об'єм, см3</p>
+							<p class="info_text">2993</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Паливо</p>
+							<p class="info_text">Дизель</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Положення</p>
+							<p class="info_text">Посередині (продольно)</p>
+						</div>
+						<p class="info_table_title">Трансмісія</p>
+						<div class="info_block">
+							<p class="info_name">Тип приводу</p>
+							<p class="info_text">Повний</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Кількість передач</p>
+							<p class="info_text">8</p>
+						</div>
+						<div class="info_block">
+							<p class="info_name">Коробка передач</p>
+							<p class="info_text">Автомат</p>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	<div id="popup" class="popup">
+  		<a onclick="hid1()" href="#" class="popup_area"></a>
+  		<div class="popup_body">
+  			<div class="popup_content">
+  				<a href="#" onclick="hid1()" class="popup_close">X</a>
+	 				<form action="" method="post" name="test" id="form" >
+					<label class="buy_label" for="name">Ім'я</label><br/>
+					<input class="buy_input" type="text" name="name" placeholder="Введіть ім'я" id="name" /><br/>
+					<label class="buy_label" for="name">Прізвище</label><br/>
+					<input class="buy_input" type="text" name="firstname" placeholder="Введіть прізвище" id="firstname" /><br/>
+					<label class="buy_label" for="E_mail">E-mail</label><br/>
+					<input class="buy_input" type="text" name="E_mail" placeholder="Введіть E-mail" id="E_mail" /><br/>
+					<label class="buy_label" for="number">Номер телефону</label><br/>
+					<input class="buy_input" type="text" name="number" placeholder="+380 00-000-00-00" id="number" /><br/>
+					<input class="buy_button" type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Замовити" />
+				</form>
+  			</div>
+		</div>
+  	</div>
+  	<div id="answer" class="answer">
+  		<a onclick="hid2()" href="#" class="popup_area"></a>
+  		<div class="answer_body">
+  			<div class="answer_content">
+  				<a onclick="hid2()" href="#" class="answer_close">X</a>
+  				<div class="answer_title">Дякуємо за заявку!</div>
+  				<div class="answer_text"> Найближчим часом з вами зв'яжеться наш менеджер</div>
+  			</div>
+  		</div>
+  	</div>
+  	<section id="comentars">
+  		<div class="conteiner">
+			<form name="form" action = "#" method="post" id="form_com" style="display: block" onsubmit="return false">
+				<label class="label_com" for="com_name">Ім'я користувача:</label><br/>
+				<input id="com_name" type="text" name="name" placeholder="Введіть ім'я користувача"><br/>
+				<label class="label_com" for="textarea">Введіть коментар</label><br/>
+				<textarea id="textarea" name="comment"></textarea><br />
+				<input type="submit" name="send" value="Додати коментар" id="done" />
+			</form>
+			<div id="comments">
+
+			</div>
+		</div>
+  	</section>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/mine.js"></script>
+</body>
+</html>
