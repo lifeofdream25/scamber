@@ -664,6 +664,7 @@ header {
 @media screen and (max-width: 575px) {
 	.conteiner {
 		width: 100%;
+		padding: 0px 10px;
 	}
 	.topauto_div{
 		flex-direction: column;
@@ -676,7 +677,7 @@ header {
 		margin-bottom: 50px;
 	}
 	.nav2{
-		width: 100%;
+		width: 95%;
 	}
 	.info_img{height: 130px;}
 	.topauto_img {height: 200px;}
@@ -732,11 +733,11 @@ header {
 	}
 	.info_img{height: 150px;}
 	.about_info{
-		height: 520px;
+		height: 540px;
 		margin-top: 0px;
 		flex-direction: column;
 	}
-	.div_button_str {height: 280px;}
+	.div_button_str {height: 100px;}
 	.why_we_div{
 		height: 700px;
 		margin-top: 0px;
@@ -758,6 +759,12 @@ header {
 	}
 	.footer{
 		height: 550px;
+	}
+	.h1_header{
+		font-size: 75px;
+	}
+	.h3_header{
+		font-size: 18px;
 	}
 }
 @media screen and (max-width: 376px) {
